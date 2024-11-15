@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+  
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+    background-image: url(BACK/images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+i{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+li{
+    display: inline-block;
+    padding: 30px;
+    padding-top: 50px;
+   }
+   li::after{
+    content: '';
+    margin: auto;
+    width: 0%;
+    display: block;
+    height: 2px;
+    background-color: rgb(196, 248, 9);
+    transition: 0.5s;
+   }
+   li:hover::after{
+    width: 100%;
+   }
+   dec{
+    color: aliceblue;
+    padding: 20px;
+    border-color: brown;
+   }
+   dec.input{
+    padding: 20px;
+    border-color: brown;
+    size: 50px;
+   }
+   
